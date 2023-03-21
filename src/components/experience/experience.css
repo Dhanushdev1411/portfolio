@@ -1,0 +1,25 @@
+h3{
+    font-style: normal;
+    font-size: 20px;
+    color:#000000;
+    font-weight: 'thick';
+} 
+h4{
+    font-style: normal;
+    font-size: 16px;
+    color:#000000;
+    font-weight: 'thick';
+}
+h5{
+    font-style: normal;
+    font-size: 14px;
+    color:#000000;
+    font-weight: 'thick';
+}
+.edu-icon{
+    color: var(--color-bg);
+}
+.edu-h2{
+    font-weight: 900;
+    font-size: xx-large;
+}

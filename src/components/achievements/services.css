@@ -1,0 +1,62 @@
+.experience__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 22%;
+    gap: 2rem;
+    width: max-content;
+}
+.ach-h2{
+    font-weight: 900;
+    font-size: xx-large;
+}
+.experience__container > div{
+    background: var(--color-primary);
+    padding: 1.2rem 5rem;
+    border-radius: 2rem;
+    border: 2px solid transparent;
+}
+.experience__manthon h3{
+    color: var(--color-bg);
+    font-weight: 900;
+}
+.experience__manthon h4{
+    color: var(--color-bg);
+    font-weight: 900;
+}
+.experience__manthon h5{
+    color: var(--color-bg);
+    font-weight: 900;
+}
+.experience__sih h3{
+    color: var(--color-bg);
+    font-weight: 900;
+}
+.experience__sih h4{
+    color: var(--color-bg);
+    font-weight: 900;
+}
+.experience__sih h5{
+    color: var(--color-bg);
+    font-weight: 900;
+}
+
+@media screen and (max-width: 1024px) {
+    .experience__container{
+        grid-template-columns: 1fr;
+    }
+    .experience__container> div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .experience__container{
+        gap: 1rem;
+    }
+    .experience__container> div{
+        width: 100%;
+        padding: 2rem 1rem;
+        margin: 0 auto;
+    }
+}
